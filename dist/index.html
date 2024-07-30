@@ -11,76 +11,286 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" > 
 
 
-
-
 </head>
-<body class="bg-yellow-100 h-screen">
+<body class="bg-[#F0F6F6] h-screen">
 
-  <!-- <nav class="bg-rose-500 flex justify-between items-center  lg:px-16 md:px-8 px-12 ">
+ <nav class="flex justify-between p-3 items-center bg-[#084B83]">
 
-    <div class="logo lg:w-1/4 fixed md:w-1/3 w-full">
-       My logo here 
+        <!--part-1-->
 
-      <h2 class="text-nowrap  font-bold">RAJ</h2>
-    </div> -->
+  <a href="#" id="brand" class="flex items-center gap-2">
 
-    <!-- <div class="menu  left-0 max-w-lg items- flex-col lg:flex lg:w-3/4 md:w-1/3 text-center w-full  hidden">
-      <ul class="flex justify-end flex-col pl-11 gap-8 lg:flex-row uppercase">
-        <li class="hover:text-blue-700">
-          <a href="#">Homepage</a>
-        </li>
-        <li class="hover:text-blue-700">
-          <a href="#">About us</a>
-        </li>
-        <li class="hover:text-blue-700">
-          <a href="#">Our Project</a>
-        </li>
-        <li class="hover:text-blue-700">
-          <a href="#">Contact</a>
-        </li> -->
-      <!-- </ul>
+  <img class="object-cover min-w-12  max-h-12 " src="./img/li.png" alt="">
+  <span class="font-serif text-[#F0F6F6] font-medium">
+  KING
+</span>
+ </a>
+
+<div class=" hidden md:flex gap-12 ">
+  <a href="#"  class="m-3 p-3 text-white font-medium hover:bg-gray-500 block rounded-lg" >Home</a>
+
+  <a href="#"  class="m-3 p-3   text-white font-medium hover:bg-gray-500 block rounded-lg" >About</a>
+  <a href="#"  class="m-3 p-3  text-white  font-medium hover:bg-gray-500 block rounded-lg">Work</a>
+
+  <a href="#"  class="m-3 p-3  text-whites  font-medium hover:bg-gray-500 block rounded-lg" >Contact</a>
+</div>
+
+
+
+<!--part-3-->
+
+<a class="hidden md:flex">
+  <img class=" object-cover h-20 w-20 " src="./img/king.png" alt="">
+</a>
+
+
+
+
+
+<!--part-4-->
+
+<button class="p-2 md:hidden" onclick="Menu()">
+  <i class="fa-solid fa-bars text-[#F0F6F6]"></i>
+</button>
+
+
+<!--part-5-->
+
+
+
+
+
+<div  class="slide hidden fixed z-10 md:hidden bg-white inset-0 p-3">
+
+<div class="flex justify-between">
+  <a href="#" id="brand" class="flex items-center gap-2">
+
+    <img class="object-cover min-w-12  max-h-12 " src="./img/li.png" alt="">
+    <span class="font-serif text-[#000202] font-medium">
+    KING</span>
+   </a>
+<button class="p-2 md:hidden" onclick="Menu()">
+  <i class=" fa-solid fa-xmark  text-[#020808]"></i>
+</button>
+</div>
+
+<div>
+  <a href="#"  class="m-3 p-3 font-medium hover:bg-gray-500 block rounded-lg" >Home</a>
+
+  <a href="#"  class="m-3 p-3 font-medium hover:bg-gray-500 block rounded-lg" >About</a>
+  <a href="#"  class="m-3 p-3 font-medium hover:bg-gray-500 block rounded-lg">Work</a>
+
+  <a href="#"  class="m-3 p-3 font-medium hover:bg-gray-500 block rounded-lg" >Contact</a>
+</div>
+
+
+</div>
+ </nav> 
+
+
+
+ <section class="hero py-16 bg-gradient-to-t from-indigo-500 flex ">
+  <!-- bg-[url('./img/hero.png')] bg-cover bg-center -->
+
+  <div class="container mx-auto px-5 flex ">
+    <div class="w-1/2 flex flex-col justify-center text-lg  ">
+
+      <span class="text-indigo-700 text-2xl font-bold"> Welcome to our akatsuki wold </span>
+
+      <p class="text-[#ffffff] font-semibold w-fit text-xl py-5">  Power is not will, it is the phenomenon of physically making things happen.” – Pain  </p>
+
+      <p class="text-[#ffffff] font-semibold w-fit text-xl py-5"> “People’s lives don’t end when they die. It ends when they lose faith.” – Nagato </p>
+      <p class="text-[#ffffff] font-semibold w-fit text-xl py-5"> “The concept of hope is nothing more than giving up. A word that holds no true meaning.” – Pain </p>
+
+
+
+
     </div>
-    
-   </nav> -->
+    <div class="w-1/2 ">
+
+      <img class="rounded-[50px]  " src="img/hero.png ">
+
+    </div>
+    <div>
+</section>
 
 
 
-
-   <nav class="flex justify-between items-center  lg:px-16 md:px-8 px-4 bg-white">
-
-    
-    <div class="company-name  text-nowrap lg:w-1/4 md:w-1/3 w-full ">Company Name</div>
+<!--about-->
 
 
-    <div class="nav-links lg:flex  lg:w-1/2 md:w-1/2  px-4  left-0 max-w-lg  w-full flex flex-col 
-    gap-6 items-center py-4 text-sm font-bold  ">
+<section class=" bg-gray-200 py-5">
+  <div>
+    <h2 class=" text-3xl font-bold text-center mb-8  ">
+      About us
+    </h2>
+    <p class="text-wrap flex space-x-1 py-2 px-2 text-black ">
 
-      <ul class="flex justify-end flex-col pl-11 gap-8 lg:flex-row uppercase">
-        <li class="hover:text-blue-700">
-          <a href="#">Homepage</a>
-        </li>
-        <li class="hover:text-blue-700">
-          <a href="#">About us</a>
-        </li>
-        <li class="hover:text-blue-700 text-nowrap">
-          <a href="#">Our Project</a>
-        </li>
-        <li class="hover:text-blue-700">
-          <a href="#">Contact</a>
-        </li> 
-       </ul>
+
+
+      The word Akatsuki has multiple meanings, each relating to one or the other aspect of this organization's formation. One of the meanings of the word Akatsuki is "Dawn", hinting towards ending of the darkness that the wars caused in the world, and aiming to bring peace all around. The other meaning of the name is "Red Moon", which refers to the Infinite Tsukuyomi plan select leaders of the organization wished to impose on the entire world, subjecting it to an eternal Genjutsu.
+
+
+    </p>
+    </scetion>
+
+
+    <div class="member-descriptio bg-gray-200 py-20">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">Our Team</h2>
+        <div class="flex flex-wrap -mx-4">
+
+                          <!-- member-1 -->
+          <div class="w-full md:w-1/2 xl:w-1/3 px-4 mb-8 basis-full md:basis-1/3 xl:basis-1/3">
+            <div class="member-info bg-white shadow-md p-4 rounded-lg">
+              <img src="./img/sm.jpeg" alt="Member Image" class="w-16 h-16 rounded-full mb-4">
+              <h3 class="text-lg font-bold text-gray-800 mb-2">Saptarshi Mitra </h3>
+              <p class="text-sm font-medium text-gray-600">co-founder of Akatsuki groups and also a 
+                great software developer</p>
+            </div>
+          </div>
+
+                          <!-- member-2 -->
+          <div class="w-full md:w-1/2 xl:w-1/3 px-4 mb-8 basis-full md:basis-1/3 xl:basis-1/3">
+            <div class="member-info bg-white shadow-md p-4 rounded-lg">
+              <img src="./img/da.jpeg" alt="Member Image" class="w-16 h-16 rounded-full mb-4">
+              <h3 class="text-lg font-bold text-gray-800 mb-2">Debasish Adhikari</h3>
+              <p class="text-sm font-medium text-gray-600">Senior Officer and also Co-founder of this groups </p>
+            </div>
+          </div>
+
+                                   <!-- member-3 -->
+          <div class="w-full md:w-1/2 xl:w-1/3 px-4 mb-8 basis-full md:basis-1/3 xl:basis-1/3">
+            <div class="member-info bg-white shadow-md p-4 rounded-lg">
+              <img src="./img/rd.jpeg" alt="Member Image" class="w-16 h-16 rounded-full mb-4">
+              <h3 class="text-lg font-bold text-gray-800 mb-2">Raj dey </h3>
+              <p class="text-sm font-medium text-gray-600">Juniior engineer and also member of this group</p>
+            </div>
+          </div>
+
+                                <!-- member-4 -->
+          <div class="w-full md:w-1/2 xl:w-1/3 px-4 mb-8 basis-full md:basis-1/3 xl:basis-1/3">
+            <div class="member-info bg-white shadow-md p-4 rounded-lg">
+              <img src="./img/nc.jpeg" alt="Member Image" class="w-16 h-16 rounded-full mb-4">
+              <h3 class="text-lg font-bold text-gray-800 mb-2">Arindam Chakraborty</h3>
+              <p class="text-sm font-medium text-gray-600"> Layout Disiner</p>
+            </div>
+          </div>
+
+                                <!-- member-5 -->
+          <div class="w-full md:w-1/2 xl:w-1/3 px-4 mb-8 basis-full md:basis-1/3 xl:basis-1/3">
+            <div class="member-info bg-white shadow-md p-4 rounded-lg">
+              <img src="./img/tm.png" alt="Member Image" class="w-16 h-16 rounded-full mb-4">
+              <h3 class="text-lg font-bold text-gray-800 mb-2">Tomal Chakraborty</h3>
+              <p class="text-sm font-medium text-gray-600">Assistant junior engineer </p>
+            </div>
+          </div>
+                                 <!-- member-6 -->
+
+          <div class="w-full md:w-1/2 xl:w-1/3 px-4 mb-8 basis-full md:basis-1/3 xl:basis-1/3">
+            <div class="member-info bg-white shadow-md p-4 rounded-lg">
+              <img src="./img/mm.jpeg" alt="Member Image" class="w-16 h-16 rounded-full mb-4">
+              <h3 class="text-lg font-bold text-gray-800 mb-2">Sushovhon Mondol</h3>
+              <p class="text-sm font-medium text-gray-600">Senior editor</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <!-- <div class="logo lg:w-1/4 md:w-1/3 w-full flex justify-end">
-      <i class="fa fa-logo" aria-hidden="true"></i>
-    </div> -->
 
-    <div class="toggle-btn lg:hidden md:w-1/3 w-full text-right md:fixed" >
-      <i class="fa fa-bars" aria-hidden="true"></i>
+
+
+
+
+              <!-- testimonial-section -->
+
+<section class="testimonial-section py-20">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-8">Testimonial</h2>
+    <div class="flex flex-wrap justify-evenly -mx-4">
+
+      <!--1-->
+      <div class="w-full md:w-1/2 lg:w-1/3  px-4 mb-8 mxa-w-sm h-48 flex-grow">
+        <div class="bg-slate-300 shadow-md p-4 rounded-lg">
+          <img class="w-16 h- 16 rounded-full md:4 md:w-24 md:h-24 lg:w-32 lg:h-32 " src="./img/ah.jpeg">
+          <p class="text-lg font-medium text-gray-800 mb-4">"This web side is good"</p>
+          <p class="text-sm font-medium text-gray-600">- </p>
+        </div>
+      </div>
+
+
+      <!---2 -->
+      <div class="w-full md:w-1/2 lg:w-1/3  px-4 mb-8 mxa-w-sm h-48 flex-grow    ">
+        <div class="bg-slate-300 shadow-md p-4 rounded-lg">
+          <img class="w-16 h- 16 rounded-full md:4 md:w-24 md:h-24 lg:w-32 lg:h-32 " src="./img/lm.png">
+          <p class="text-lg font-medium text-gray-800 mb-4">""This web side is very usefull""</p>
+          <p class="text-sm font-medium text-gray-600">-  Arpon Majumder </p>
+        </div>
+      </div>
+      <!--3-->
+      <div class="w-full md:w-1/2 lg:w-1/3  px-4 mb-8 mxa-w-sm h-48 flex-grow   ">
+        <div class="bg-slate-300 shadow-md p-4 rounded-lg">
+          <img class="w-16 h- 16 rounded-full md:4 md:w-24 md:h-24 lg:w-32 lg:h-32 " src="./img/sc.png">
+          <p class="text-lg font-medium text-gray-800 mb-4">"Web side is nice and i wish it will grow in future
+            ."</p>
+          <p class="text-sm font-medium text-gray-600">- Sauvick Chakraborty</p>
+        </div>
+      </div>
+
+<!-- 
+       <div class="w-full md:w-1/2 xl:w-1/4 px-4 mb-8  mxa-w-sm h-48 flex-grow">
+        <div class="bg-white shadow-md p-4 rounded-lg">
+          <img class="w-16 h- 16 rounded-full md:4 md:w-24 md:h-24 lg:w-32 lg:h-32 " src="./img/td.png">
+          <p class="text-lg font-medium text-gray-800 mb-4">"Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit."</p>
+          <p class="text-sm font-medium text-gray-600">- raju Smith</p>
+        </div>
+      </div>  -->
+
     </div>
-  </nav>
-  
+  </div>
+</section>
 
+
+
+
+<footer class="bg-indigo-400 py-16 ">
+  <div class="container mx-auto px-4">
+    <div class="flex flex-wrap -mx-4">
+      <div class="w-full md:w-1/2 xl:w-1/3 px-4 mb-8">
+        <!-- Column 1 content here -->
+
+
+        <h3 class="text-lg font-bold text-gray-800 mb-4">About Us</h3>
+        <p class="text-sm font-medium text-white">kjdkdjkdk.</p>
+      </div>
+      <div class="w-full md:w-1/2 xl:w-1/3 px-4 mb-8">
+
+
+
+        <!-- Column 2 content here -->
+        <h3 class="text-lg font-bold text-gray-800 mb-4">Quick Links</h3>
+        <ul class="list-unstyled mb-0">
+          <li class="mb-2"><a href="#" class="text-sm font-medium text-white">Link 1</a></li>
+          <li class="mb-2"><a href="#" class="text-sm font-medium text-white">Link 2</a></li>
+        </ul>
+      </div>
+      <div class="w-full md:w-1/2 xl:w-1/3 px-4 mb-8">
+
+
+
+        <!-- Column 3 content here -->
+        <h3 class="text-lg font-bold text-gray-800 mb-4">Contact Us</h3>
+        <p class="text-sm font-medium text-white">Email: </p>
+        <p class="text-sm font-medium text-white">Phone: </p>
+      </div>
+    </div>
+
+    <!-- Copyright information here -->
+    <p class="text-sm font-medium text-white text-center mt-8">Copyright 2024 Your Company. All rights reserved.</p>
+  </div>
+  </footer>
 
 
 
